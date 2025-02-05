@@ -1,9 +1,13 @@
 import './App.css'
+import Header from './components/navbar/Header'
 
 function App() {
 
   return (
-    <h1>Personal Portfolio using React.js</h1>
+    <>
+      <Header />
+      <h1>Personal Portfolio using React.js</h1>
+    </>
   )
 }
 
