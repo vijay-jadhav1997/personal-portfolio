@@ -14,10 +14,8 @@ Welcome to my **Personal Portfolio Website**! 🚀 This is where I showcase my s
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB, PostgreSQL
-- **Tools & Deployment:** GitHub Pages, Vercel, Netlify
+- **Frontend:** HTML, CSS, JavaScript, React.js, React-scroll, Formspree
+- **Tools & Deployment:** GitHub Pages
 
 ## 📂 Project Structure
 
