@@ -40,7 +40,7 @@
 .form-wrapper {
   max-width: 25rem;
   width: 100%;
-  padding: 2rem 2rem 4rem;
+  padding: 2rem 2rem;
   /* background-color: #eaa1d929; */
   background-color: #cfa1ea29;
   backdrop-filter: blur(20px);
@@ -109,9 +109,46 @@ form .submit-btn:hover {
   transform: scale(0.97);
 }
 
+form .submit-btn.error {
+  transform: unset;
+  cursor: not-allowed;
+}
+
+form .submit-btn.pending {
+  transform: unset;
+  cursor: not-allowed;
+  animation: pending 1s infinite linear alternate-reverse;
+}
+
+@keyframes pending {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
 form .submit-btn .icon {
   display: inline-block;
   margin-right: 0.5rem;
+}
+
+.status-message {
+  width: max-content;
+  margin: 1rem auto 0;
+}
+
+.status-message.success {
+  color: #84ff25;
+}
+
+.status-message.pending {
+  color: #ffc200;
+}
+
+.status-message.error {
+  color: #ff2525;
 }
 
 
