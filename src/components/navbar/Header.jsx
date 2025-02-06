@@ -29,6 +29,7 @@ const Header = () => {
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={700} className='nav-menu-item' onClick={menuHandler} >Home</Link>
         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={700} className='nav-menu-item' onClick={menuHandler} >Projects</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={700} className='nav-menu-item' onClick={menuHandler} >Skills</Link>
+        <Link activeClass='active' to='codepen-examples' spy={true} smooth={true} offset={-50} duration={700} className='nav-menu-item' onClick={menuHandler} >CodePen</Link>
       </nav>
       <button className="contactBtn"
         onClick={() => {

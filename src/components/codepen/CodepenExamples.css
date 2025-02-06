@@ -1,0 +1,114 @@
+#codepen-examples {
+  --codepen-bg: #141131;
+  background-color: var(--codepen-bg);
+  width: 100%;
+  max-width: 80rem;
+  /* max-width: 75rem; */
+  padding: 0 2rem 3rem;
+  margin: 0 auto;
+  /* padding: 2rem 1rem 3rem; */
+}
+
+
+.codepen-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin: 1rem auto 1.5rem;
+  text-align: center;
+}
+
+.codepen-description {
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 65rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin: 0 auto 2rem;
+  /* text-align: center; */
+  color: #c7c7c7;
+}
+
+
+.codepen-container.show-height {
+  height: auto;
+  overflow: unset;
+}
+
+.codepen-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  row-gap: 1.2rem;
+  height: 950px;
+  overflow: hidden;
+  padding: 1rem;
+  transition: height 0.3s ease;
+}
+
+.codepen-container p {
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+
+#codepen-examples .show-more {
+  margin: 1rem 0 0 2rem;
+  width: max-content;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px 1px #69ef86;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#codepen-examples .show-more.show-less {
+  box-shadow: 0 0 5px 1px #fc4444;
+}
+
+#codepen-examples .show-more:hover {
+  scale: 0.95;
+}
+
+
+
+
+
+
+@media screen and (max-width:720px) {
+  .codepen-heading {
+    font-size: 2rem;
+  }
+  .codepen-description {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  #codepen-examples {
+    padding: 0 0.5rem 2rem;
+  }
+  .codepen-heading {
+    font-size: 1.3rem;
+    margin: 1rem auto;
+  }
+  .codepen-description {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:375px) {
+  .codepen-heading {
+    font-size: 1.45rem;
+  }
+  .codepen-description {
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+}
