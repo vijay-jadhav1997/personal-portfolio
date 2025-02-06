@@ -2,7 +2,7 @@ import {Link}  from 'react-scroll';
 
 import { PiHandbagSimpleFill } from "react-icons/pi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter, FaCodepen } from "react-icons/fa6";
+import { FaXTwitter, FaCodepen, FaArrowDownLong } from "react-icons/fa6";
 // import { IoIosMail } from "react-icons/io";
 
 import './Intro.css'
@@ -68,6 +68,12 @@ function Intro() {
       </div>
       <img className='bg-img' src={profImg} alt="Profile background Image" />
 
+      <Link className='latest-work-link' to='projects' spy={true} smooth={true} offset={-60} duration={700}>
+        <div className="pointer">
+          Latest Work
+          <FaArrowDownLong className='arrow' />
+        </div>
+      </Link>
       
     </section>
   )

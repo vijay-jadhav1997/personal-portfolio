@@ -157,6 +157,37 @@
   color: #fff;
 }
 
+.latest-work-link {
+  width: max-content;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: #dffe88;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.latest-work-link .arrow {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  animation: anime 1s infinite alternate-reverse;
+}
+
+@keyframes anime {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-50%, 50%);
+  }
+}
+
 
 
 
@@ -206,6 +237,11 @@
   .social-medias .button:hover {
     width: 135px;
   }
+
+  .latest-work-link {
+    bottom: 6rem;
+  }
+  
 }
 
 
@@ -243,6 +279,10 @@
     margin-bottom: 0.5rem;
   }
 
+  /* .latest-work-link {
+    bottom: 6rem;
+  } */
+  
 }
 
 @media screen and (max-width:425px) {
