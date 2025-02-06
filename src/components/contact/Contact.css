@@ -1,0 +1,144 @@
+#contact {
+  position: relative;
+  max-width: 80rem;
+  /* max-width: 75rem; */
+  width: 100%;
+  margin: auto;
+  padding: 12rem 2rem 8rem;
+  /* background-color: #062f5e3c; */
+  background-color: #0d0b41;
+
+  /* background-image: url('/src/assets/images/contact-me.svg'); */
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact h3 {
+  position: absolute;
+  width: max-content;
+  font-size: 1.5rem;
+  top: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: #40a4b9;
+  border: 1px solid #20b2aa;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+#contact .contact-img-wrapper {
+  max-width: 500px;
+}
+#contact .contact-img-wrapper img {
+  width: 100%;
+}
+
+.form-wrapper {
+  max-width: 25rem;
+  width: 100%;
+  padding: 2rem 2rem 4rem;
+  /* background-color: #eaa1d929; */
+  background-color: #cfa1ea29;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+  
+form .input-box {
+  width: max-content;
+  padding: 5px;
+  position: relative;
+  font-weight: 600;
+}
+form .input-box label {
+  /* position: absolute; */
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+form .input-box .icon {
+  position: absolute;
+  /* color: #0a6940; */
+  color: #186676;
+  bottom: 1.7rem;
+  left: 1rem;
+}
+  
+form .input-box input,
+form .input-box textarea {
+  width: 300px;
+  margin: 10px 0;
+  padding: 8px 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: #18794f;
+  text-indent: 2rem;
+}
+
+form .input-box textarea {
+  height: 100px;
+  text-indent: 1rem;
+  scrollbar-width: thin;
+}
+  
+form .input-box input::placeholder {
+  color: #a9b7b4;
+}
+
+form .submit-btn {
+  padding: 5px 16px;
+  margin: 1rem auto 0;
+  font-size: 1.2rem;
+  /* background-color: #72ba72; */
+  background-color: #30b7d2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .submit-btn:hover {
+  transform: scale(0.97);
+}
+
+form .submit-btn .icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  #contact {
+    background-image: url('/src/assets/images/contact-me.svg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  #contact .contact-img-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  #contact {
+    padding: 8rem 0.5rem 6rem;
+  }
+
+  form .input-box input,
+  form .input-box textarea {
+    width: 275px;
+  }
+
+  #contact h3 {
+    top: 3rem;
+  }
+}
