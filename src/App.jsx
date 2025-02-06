@@ -1,13 +1,14 @@
 import './App.css'
 import Header from './components/navbar/Header'
+import Intro from './components/introduction/Intro'
 
 function App() {
 
   return (
-    <>
+    <div className='app'>
       <Header />
-      <h1>Personal Portfolio using React.js</h1>
-    </>
+      <Intro />
+    </div>
   )
 }
 

@@ -1,0 +1,294 @@
+.intro {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #062f5e3c;
+}
+
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  top: 4rem;
+  right: 0;
+  height: calc(100vh - 4rem);
+  object-fit: cover;
+}
+
+.intro-details {
+  min-height: calc(100vh - 4rem);
+  /* width: 100%; */
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.intro-name {
+  color: #f3b414;
+  font-size: 3.2rem;
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+.intro-profession {
+  font-size: 2.75rem;
+}
+
+.intro-para {
+  /* height: 150px; */
+  font-size: 22px;
+  /* line-height: 2rem; */
+  font-weight: 200;
+  max-width: 40rem;
+  margin: 1rem 0;
+}
+
+.hireme-link {
+  width: max-content;
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+.hireme-btn {
+  color: #fff;
+  background-color: #4cb082;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  cursor: pointer;
+}
+
+.hireme-btn:hover {
+  scale: 0.97;
+}
+
+.bag-icon {
+  object-fit: cover;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.social-medias {
+  margin: 1rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-medias a {
+  text-decoration: none;
+  color: #272525;
+}
+  
+.social-medias .button {
+  /* display: inline-block; */
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  /* margin: 0 5px; */
+  background-color: #fff;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+
+  
+}
+
+.social-medias .icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-medias .icon-wrapper .icon {
+  font-size: 1.5rem;
+}
+  
+  
+.social-medias .button span {
+  font-size: 1.25rem;
+  margin-left: 10px;
+}
+
+.social-medias a:nth-child(2) .button {
+  color: #0c2b91;
+}
+
+.social-medias a:nth-child(3) .button {
+  color: #9317bc;
+}
+
+  
+.social-medias .button:hover {
+  width: 160px;
+}
+
+.social-medias .button:hover .icon-wrapper {
+  background-color: #181717;
+  color: #fff;
+}
+
+.social-medias a:nth-child(2) .button:hover .icon-wrapper {
+  background-color: #0c2b91;
+  color: #fff;
+}
+
+.social-medias a:nth-child(3) .button:hover .icon-wrapper {
+  background-color: #9317bc;
+  color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .bg-img {
+    right: -10%;
+  }
+}
+  
+@media screen and (max-width:640px) {
+  .bg-img {
+    top: -1rem;
+  }
+  .intro-text {
+    font-size: 2.75rem;
+  }
+
+  .intro-para {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .social-medias {
+    margin: 0.25rem 0 0;
+  }
+  
+  .social-medias .button {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .social-medias .icon-wrapper {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .social-medias .icon-wrapper .icon {
+    font-size: 22px;
+  }
+
+  .social-medias .button span {
+    font-size: 1rem;
+  }
+  
+  .social-medias .button:hover {
+    width: 135px;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  #intro {
+    padding-top: 2rem;
+  }
+  
+  .bg-img {
+    top: -1rem;
+  }
+  
+  .hello {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  
+  .intro-details {
+    padding: 2rem 1rem;
+  }
+  
+  .intro-name {
+    font-size: 2.25rem;
+  }
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .intro-profession {
+    font-size: 2rem;
+  }
+  
+  .intro-para {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+  .bg-img {
+    top: -2rem;
+    right: -25vw;
+  }
+  .intro-details {
+    padding: 0rem 1rem 2rem;
+    font-size: 2rem;
+  }
+
+  .intro-text {
+    font-size: 28px;
+  }
+
+  .intro-profession {
+    font-size: 28px;
+  }
+
+  .intro-para {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width:376px) {
+
+  #intro {
+    padding-top: 0;
+  }
+
+  .bg-img {
+    right: -25%;
+  }
+  
+  .intro-details {
+    padding: 0rem 0.75rem 2rem;
+  }
+  .hello {
+    font-size: 22px;
+  }
+  .intro-name {
+    font-size: 2.25rem;
+  }
+  
+  .bag-icon {
+    font-size: 22px;
+  }
+}
