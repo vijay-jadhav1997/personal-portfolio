@@ -2,6 +2,9 @@
 
 Welcome to my **Personal Portfolio Website**! 🚀 This is where I showcase my skills, projects, and creative work as a **Full Stack Web Developer**.
 
+## **🌐You can [go live here 🔗](https://vijay-jadhav1997.github.io/vkj-portfolio/)**
+
+
 ## 🌟 Features
 
 - **Header** – Navigation bar for easy access to different sections.
@@ -14,13 +17,13 @@ Welcome to my **Personal Portfolio Website**! 🚀 This is where I showcase my s
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, React.js, React-scroll, Formspree
+- **Frontend:** HTML, CSS, JavaScript, React.js, React-scroll, gh-pages, Formspree.
 - **Tools & Deployment:** GitHub Pages
 
 ## 📂 Project Structure
 
 ```
-📂 vijay-portfolio
+📂 vkj-portfolio
 │── 📁 public        # Static assets
 │── 📁 src           # Main source code
 │   │── 📁 assets      # Images, icons, and other resources
@@ -37,7 +40,7 @@ Welcome to my **Personal Portfolio Website**! 🚀 This is where I showcase my s
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/vijay-jadhav1997/vijay-portfolio.git
+git clone https://github.com/vijay-jadhav1997/vkj-portfolio.git
 cd vijay-portfolio
 ```
 
@@ -50,13 +53,13 @@ npm install
 ```bash
 npm run dev
 ```
-This will start the website on **localhost:3000** (or the default port configured).
+This will start the website on **localhost:5173** (or the default port configured).
 
 ## 📬 Contact Me
 
 If you have any questions, suggestions, or collaboration ideas, feel free to reach out:
 
-- **Portfolio:** [Live Website](https://vijay-portfolio.com)
+- **Portfolio:** [Live Website](https://vijay-jadhav1997.github.io/vkj-portfolio/)
 - **GitHub:** [@vijay-jadhav1997](https://github.com/vijay-jadhav1997)
 - **Email:** vijay05111997@gmail.com
 - **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/vijay-jadhav1997)
