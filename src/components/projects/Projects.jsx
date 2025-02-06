@@ -5,6 +5,8 @@ import blackWhiteLab from '../../assets/images/projects/black-white-lab.webp'
 import indicquiz from '../../assets/images/projects/quiz-app.webp'
 import indic_products from '../../assets/images/projects/indic-products-app.webp'
 import expenses from '../../assets/images/projects/expense-app.webp'
+import shoe_company from '../../assets/images/projects/shoe-companyapp.webp'
+// import explore_nation from '../../assets/images/projects/nation-app.webp'
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -131,6 +133,28 @@ function Projects() {
             <img src={expenses} alt="Track Expenses" />
           </div>
           <div className="connecting-line"><span></span></div>
+        </div>
+      </div>
+      
+      <div className="project shoe-company left tab">
+        <div>
+          <div className="project-img-wrapper">
+            <span className="tooltip"><span></span><a target='_blank' href="https://tailwind-css-projects.vercel.app/">ShoeCompany <FaExternalLinkAlt /></a> </span>
+            <img src={shoe_company} alt="Shoe Company" />
+          </div>
+          <div className="connecting-line"><span></span></div>
+        </div>
+        
+        <div className="project-intro">
+          <h3 className="project-title"><a target='_blank' href="https://tailwind-css-projects.vercel.app/">Shoe Company</a></h3>
+          <a target='_blank' href="https://github.com/vijay-jadhav1997/Tailwind_CSS_Projects" className="github-link">(Github - shoe_company)</a>
+          <p className="project-details">This project involves coding a fully responsive landing page of a shoe company from figma design using Tailwind CSS.</p>
+          <ul className='tech-stack'>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
+            <li>Parcel</li>
+          </ul>
         </div>
       </div>
 
