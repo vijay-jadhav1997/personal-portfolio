@@ -38,7 +38,7 @@ function Projects() {
 
         <div>
           <div className="project-img-wrapper">
-            <span className="tooltip"><span></span><a target='_blank' href="https://indicfood.vercel.app/">BlackWhiteLab <FaExternalLinkAlt /></a> </span>
+            <span className="tooltip"><span></span><a target='_blank' href="https://black-white-lab.vercel.app/">BlackWhiteLab <FaExternalLinkAlt /></a> </span>
             <img src={blackWhiteLab} alt="BlackWhiteLab" />
           </div>
           <div className="connecting-line"><span></span></div>
