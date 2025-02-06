@@ -32,6 +32,7 @@ import vite from '../../assets/images/vite.png'
 import babel from '../../assets/images/babel.png'
 import vscode from '../../assets/images/vs-code.png'
 import markdown from '../../assets/images/markdown.png'
+import codepen from '../../assets/images/codepen.png'
 
 const Skills = () => {
   return (
@@ -232,10 +233,76 @@ const Skills = () => {
             <h4>Markdown</h4>
           </div>
           
+          <div className="skill">
+            <div className="img-wrapper">
+              <img src={codepen} alt="Codepen " />
+            </div>
+            <h4>Codepen</h4>
+          </div>
         </div>
-
       </div>
       
+      <div className="skills-slider1" style={{'--item-width': '125px', '--item-height': '120px', '--quantity': '25'}}>
+        <div className="list">
+          <span className="item" style={{'--position': '1'}}>JavaScript</span>
+          <span className="item" style={{'--position': '2'}}>TypeScript</span>
+          <span className="item" style={{'--position': '3'}}>Python</span>
+          <span className="item" style={{'--position': '4'}}>HTML</span>
+          <span className="item" style={{'--position': '5'}}>CSS</span>
+          <span className="item" style={{'--position': '6'}}>React.js</span>
+          <span className="item" style={{'--position': '7'}}>Jest</span>
+          <span className="item" style={{'--position': '8'}}>Redux.js</span>
+          <span className="item" style={{'--position': '9'}}>Tailwind CSS</span>
+          <span className="item" style={{'--position': '10'}}>Bootstrap</span>
+          <span className="item" style={{'--position': '11'}}>Material UI</span>
+          <span className="item" style={{'--position': '12'}}>Node.js</span>
+          <span className="item" style={{'--position': '13'}}>Express.js</span>
+          <span className="item" style={{'--position': '14'}}>MongoDB</span>
+          <span className="item" style={{'--position': '15'}}>Firebase</span>
+          <span className="item" style={{'--position': '16'}}>Redis</span>
+          <span className="item" style={{'--position': '17'}}>SQL</span>
+          <span className="item" style={{'--position': '18'}}>Git</span>
+          <span className="item" style={{'--position': '19'}}>GitHub</span>
+          <span className="item" style={{'--position': '20'}}>Postman</span>
+          <span className="item" style={{'--position': '21'}}>npm</span>
+          <span className="item" style={{'--position': '22'}}>vite</span>
+          <span className="item" style={{'--position': '23'}}>Babel</span>
+          <span className="item" style={{'--position': '24'}}>vs code</span>
+          <span className="item" style={{'--position': '25'}}>Markdown</span>
+        </div>
+      </div>
+
+      <div className="skills-slider2" style={{'--item-width': '50px', '--item-height': '250px', '--quantity':'25'}}>
+        <div className="list">
+          <div className="item" style={{'--position': '1'}}><img src={javascript} alt="Javascript" /></div>
+          <div className="item" style={{'--position': '2'}}><img src={typescript} alt="Typescript" /></div>
+          <div className="item" style={{'--position': '3'}}><img src={python} alt="Python" /></div>
+          <div className="item" style={{'--position': '4'}}><img src={html5} alt="HTML" /></div>
+          <div className="item" style={{'--position': '5'}}><img src={css3} alt="CSS" /></div>
+          <div className="item" style={{'--position': '6'}}><img src={reactjs} alt="react js" /></div>
+          <div className="item" style={{'--position': '7', borderRadius: '5px'}}><img src={jest} alt="jest" /></div>
+          <div className="item" style={{'--position': '8'}}><img src={reduxjs} alt="redux js" /></div>
+          <div className="item" style={{'--position': '9'}}><img src={tailwindcss} alt="Tailwind CSS" /></div>
+          <div className="item" style={{'--position': '10'}}><img src={bootstrap} alt="Bootstrap" /></div>
+          <div className="item" style={{'--position': '11'}}><img src={materialui} alt="Material UI" /></div>
+          <div className="item" style={{'--position': '12'}}><img src={nodejs} alt="Node JS" /></div>
+          {/* <div className="item" style={{'--position': '13'}}><img src={express_js} alt="Express JS" /></div> */}
+          <div className="item" style={{'--position': '13', backgroundColor: '#fff', padding: '2px', borderRadius: '5px'}}><img src={express_js} alt="npm" /></div>
+          <div className="item" style={{'--position': '14'}}><img src={mongodb} alt="MongoDB" /></div>
+          <div className="item" style={{'--position': '15'}}><img src={firebase} alt="Firebase" /></div>
+          <div className="item" style={{'--position': '16'}}><img src={redis} alt="Redis" /></div>
+          <div className="item" style={{'--position': '17'}}><img src={sql} alt="SQL" /></div>
+          {/* <div className="item" style={{'--position': '13'}}><img src={postgresql} alt="Postgra SQL" /></div> */}
+          <div className="item" style={{'--position': '18', backgroundColor: '#fff', padding: '2px', borderRadius: '5px'}}><img src={git} alt="Git" /></div>
+          <div className="item" style={{'--position': '19', backgroundColor: '#fff', padding: '2px', borderRadius: '5px'}}><img src={github} alt="GitHub" /></div>
+          <div className="item" style={{'--position': '20'}}><img src={postman} alt="Postman" /></div>
+          <div className="item" style={{'--position': '21', backgroundColor: '#fff', padding: '2px', borderRadius: '5px'}}><img src={npm} alt="npm" /></div>
+          <div className="item" style={{'--position': '22'}}><img src={vite} alt="vite" /></div>
+          <div className="item" style={{'--position': '23'}}><img src={babel} alt="babel" /></div>
+          <div className="item" style={{'--position': '24'}}><img src={vscode} alt="vs code" /></div>
+          <div className="item" style={{'--position': '25'}}><img src={markdown} alt="markdown" /></div>
+        </div>
+      </div>
       
     </section>
   )
