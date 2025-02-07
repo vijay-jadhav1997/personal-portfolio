@@ -100,7 +100,7 @@ function Projects() {
           <div className="connecting-line"><span></span></div>
         </div>
         <div className="project-intro">
-          <h3 className="project-title"><a target='_blank' href="">Indic Products</a></h3>
+          <h3 className="project-title"><a target='_blank' href="https://vijayjadhav1997.pythonanywhere.com/">Indic Products</a></h3>
           <a target='_blank' href="https://github.com/vijay-jadhav1997/E-Commerce.git" className="github-link">(Github - Indic_Products)</a>
           <p className="project-details">Indic Products, a Django-based e-commerce platform where users can create accounts to buy and sell various products. The platform supports seamless product listings, secure transactions, and personalized experiences for both buyers and sellers.</p>
           <ul className='tech-stack'>
