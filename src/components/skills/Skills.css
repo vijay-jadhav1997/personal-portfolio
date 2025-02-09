@@ -159,7 +159,7 @@
 }
 
 .skills-slider2 .list div.item:hover {
-  filter: drop-shadow(0 0 50px #83a4f2);
+  filter: drop-shadow(0 0 30px #eef12d);
 }
 
 .list div.item img {
